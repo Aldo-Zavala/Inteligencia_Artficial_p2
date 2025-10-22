@@ -1,1 +1,0 @@
-# Inteligencia_Artficial_p2
