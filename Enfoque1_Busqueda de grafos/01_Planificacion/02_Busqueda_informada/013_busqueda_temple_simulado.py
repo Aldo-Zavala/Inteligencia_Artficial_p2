@@ -10,7 +10,7 @@ def simulated_annealing(graph, start, heuristic, max_iterations=50, initial_temp
     path = [current]
     
     for i in range(max_iterations):
-        neighbors = graph[current]
+        neighbors = graph[current]#
         if not neighbors:
             break
         
