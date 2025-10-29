@@ -15,7 +15,7 @@ def online_search(graph, start, goal):
                 return None  # sin solución
         else:
             # Elegir un vecino aleatorio (estrategia simple online)
-            current = neighbors[0]
+            current = neighbors[0]#
             path.append(current)
     
     return path
