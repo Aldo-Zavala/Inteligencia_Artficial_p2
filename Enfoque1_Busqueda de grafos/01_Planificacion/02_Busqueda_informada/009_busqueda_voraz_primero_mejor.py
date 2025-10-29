@@ -16,7 +16,7 @@ def greedy_best_first_search(graph, start, goal, heuristic):
             visited.add(current)
             
             for neighbor in graph[current]:
-                if neighbor not in visited:
+                if neighbor not in visited:#
                     heapq.heappush(queue, (heuristic[neighbor], neighbor, path + [neighbor]))
     
     return None  # si no se encuentra el objetivo
