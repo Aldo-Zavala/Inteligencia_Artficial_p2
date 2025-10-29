@@ -32,7 +32,7 @@ def profundidad_iterativa(graph, start, goal, max_depth):
         if path:
             print(f"\n Nodo encontrado con profundidad {limit}")
             return path
-    print("\nNo se encontró el objetivo dentro del límite de profundidad")
+    print("\nNo se encontró el objetivo dentro del límite de profundidad")#
     return None
 
 
