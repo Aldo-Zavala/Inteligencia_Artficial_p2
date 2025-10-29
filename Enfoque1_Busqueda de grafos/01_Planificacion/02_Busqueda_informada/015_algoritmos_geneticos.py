@@ -41,7 +41,7 @@ def algoritmo_genetico(tam_poblacion=6, tam_individuo=5, generaciones=10):
             hijo1 = mutacion(hijo1)
             hijo2 = mutacion(hijo2)
             nueva_poblacion.extend([hijo1, hijo2])
-        poblacion = nueva_poblacion[:tam_poblacion]
+        poblacion = nueva_poblacion[:tam_poblacion]#
         # Mejor de la generación
         mejor = max(poblacion, key=fitness)
         print(f"Generación {gen+1}: Mejor individuo {mejor}, Fitness={fitness(mejor)}")
