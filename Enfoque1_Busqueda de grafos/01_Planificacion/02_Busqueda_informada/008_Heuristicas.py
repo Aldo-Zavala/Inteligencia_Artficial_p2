@@ -64,4 +64,4 @@ start_node = 'A'
 goal_node = 'G'
 camino = greedy_best_first_search(graph, start_node, goal_node, heuristica)
 
-print("\n Camino encontrado:", camino)
+print("\n Camino encontrado:", camino)#
