@@ -45,4 +45,4 @@ start_nodes = ['A', 'C']  # haz inicial
 path, best_node, best_value = local_beam_search(graph, heuristic, start_nodes, k=2)
 print("Camino recorrido:", path)
 print("Mejor nodo encontrado:", best_node)
-print("Valor heurístico:", best_value)
+print("Valor heurístico:", best_value)#
