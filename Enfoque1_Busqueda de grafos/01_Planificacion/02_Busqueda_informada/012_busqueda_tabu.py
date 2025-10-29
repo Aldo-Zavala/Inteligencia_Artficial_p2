@@ -11,7 +11,7 @@ def tabu_search(graph, start, heuristic, max_iterations=20, tabu_size=5):
     for _ in range(max_iterations):
         neighbors = [n for n in graph[current] if n not in tabu_list]
         if not neighbors:
-            break
+            break#
         
         # Seleccionar vecino con mejor heurística
         next_node = max(neighbors, key=lambda n: heuristic[n])
