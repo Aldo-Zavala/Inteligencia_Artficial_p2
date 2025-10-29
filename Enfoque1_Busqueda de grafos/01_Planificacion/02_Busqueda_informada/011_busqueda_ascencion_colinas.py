@@ -16,7 +16,7 @@ def hill_climbing(graph, start, heuristic):
         
         current = next_node
         path.append(current)
-    
+    #
     return path, heuristic[current]
 
 # Ejemplo de grafo
