@@ -14,7 +14,7 @@ def a_star_search(graph, start, goal, cost, heuristic):
         if current not in visited:
             visited.add(current)
             for neighbor in graph[current]:
-                if neighbor not in visited:
+                if neighbor not in visited:#
                     g_new = g + cost[(current, neighbor)]
                     f_new = g_new + heuristic[neighbor]
                     heapq.heappush(queue, (f_new, g_new, neighbor, path + [neighbor]))
