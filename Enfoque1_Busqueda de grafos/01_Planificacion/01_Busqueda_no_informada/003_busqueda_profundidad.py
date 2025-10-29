@@ -1,4 +1,4 @@
-def dfs_recursive(graph, start, visited=None, order=None):
+def dfs_recursive(graph, start, visited=None, order=None):#
     if visited is None:
         visited = set()
     if order is None:
@@ -6,6 +6,7 @@ def dfs_recursive(graph, start, visited=None, order=None):
         visited.add(start)
     order.append(start)
 
+    # Recorrer recursivamente cada vecino no visitado
     for neigh in graph.get(start, []):
         if neigh not in visited:
             dfs_recursive(graph, neigh, visited, order)
@@ -23,4 +24,4 @@ graph = {
     'G': ['K','L'],
     'H': [], 'I': [], 'J': [], 'K': [], 'L': []
 }
-print("DFS recursiva:", dfs_recursive(graph, 'A'))
+print("DFS recursiva:", dfs_recursive(graph, 'A'))#
