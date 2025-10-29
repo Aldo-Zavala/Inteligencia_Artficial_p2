@@ -56,4 +56,4 @@ if __name__ == "__main__":
         print("No existe ruta de A a H")
     else:
         print("Ruta de coste mínimo:", ruta)
-        print("Costo total:", costo)
+        print("Costo total:", costo)#
