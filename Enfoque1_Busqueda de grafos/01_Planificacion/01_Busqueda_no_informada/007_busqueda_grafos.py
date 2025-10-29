@@ -43,7 +43,7 @@ def reconstruir_camino(padres, inicio, objetivo):
     return camino
 
 
-#  Ejemplo de grafo
+#  Ejemplo de grafo#
 graph = {
     'A': ['B', 'C', 'D'],
     'B': ['E', 'F'],
