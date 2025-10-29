@@ -74,5 +74,5 @@ graph = {
 start_node = 'A'
 goal_node = 'H'
 path = bidirectional_search(graph, start_node, goal_node)
-
+#
 print("\n Ruta encontrada:", path)
